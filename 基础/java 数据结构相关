@@ -1,0 +1,27 @@
+java 数据结构相关
+
+1、堆。 PriorityQueue
+可以建堆，小顶堆 m-n; 大顶堆 n-m
+
+PriorityQueue<Integer> queen = new PriorityQueue<Integer>(new Compartor<Integer>() {
+     public int compare(int m, int n) {
+            return m - n;
+        }
+});
+
+
+peek();  获取堆顶，不删除。
+offer();  添加
+poll();  获取，没有返回空
+
+
+2、linkedList , 可以当做栈用，
+
+addLast();
+removeLast();
+
+
+3、字符串抓字符数组
+
+Character c : s.toCharArray()
+
